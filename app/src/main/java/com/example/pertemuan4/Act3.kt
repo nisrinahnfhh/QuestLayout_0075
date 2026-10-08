@@ -53,7 +53,7 @@ fun ActivitasPertama(modifier: Modifier = Modifier) {
             )
         ) {
             Row {
-                val gambar = painterResource(R.drawable.logo_umy)
+                val gambar = painterResource(R.drawable.logoumy)
                 Image(
                     painter = gambar,
                     contentDescription = null,
@@ -63,7 +63,7 @@ fun ActivitasPertama(modifier: Modifier = Modifier) {
                 Column {
                     Text(
                         text = stringResource(R.string.nama),
-                        fontSize = 30.sp,
+                        fontSize = 20.sp,
                         fontFamily = FontFamily.Cursive,
                         color = Color.White,
                         modifier = Modifier.padding(top = 15.dp)
